@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media(min-width:800px){
+    .hero-container{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .user-section{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+    }
+    .user-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container-1{
+        width: 100%;
+    }
+}
+.user-section{
+    /* border: 2px solid red; */
+    padding: 1rem 0;
+} 
+.user-container{
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    background-color: #2e3337;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+.container-1{
+    border: 3px solid red;
+    padding: 0 1.2rem;
+    margin: auto;
+    width: 80%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 1rem 0;
+}
+.title{
+    color: #fff;
+    text-align: center;
+}
+.fa-solid{
+    color:rgb(135, 136, 136) ;
+}
+.head-image{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 7px solid #1afcf4;
+}
+.h4-titles{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #1afcf4;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 2px solid rgb(135, 136, 136);
+}
+.h4>p{
+    color:rgb(135, 136, 136);
+}
+.contents{
+    display: flex;
+    margin: 1.5rem 0;
+}
+.contents>div>p{
+    color:rgb(135, 136, 136) ;
+    margin-left: 1rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    /* width: 100%; */
+    /* padding: none; */
+    background-color:#6d6e70;
+    border-radius: 15px;
+}
+.icon{
+    padding: 20px;
+    color: white;
+}
+
+/* Game section */
+.game-section{
+/* padding: 1rem 0; */
+}
+
+.game-image{
+    /* border: 3px solid white; */
+    position: relative;
+    left: -60px;
+}
+.img-1{
+    /* border: 2px solid red; */
+    
+}
+.rating-container{
+    /* background: url(""); */
+    position: relative;
+    bottom: 12rem;
+}
+.rating{
+    text-align: center;
+}
+.checked{
+    color: #1afcf4;
+}
+.rating-text{
+    display: flex;
+    justify-content: space-between;
+    color: #1afcf4;
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+.rating-text>div>p{
+    color:rgb(135, 136, 136) ;
+}
+.btns{
+    text-align: center;
+    padding-bottom:1rem ;
+}
+.btn{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1afcf4;
+    color: whitesmoke;
+    width: 80%;
+}
+/* Game Characters */
+.ch-title{
+    color: white;
+    padding-top: 1rem;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    background-color:rgb(135, 136, 136) ;
+    border: 1px solid rgb(135, 136, 136);
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+input[type=search]{
+    color: whitesmoke;
+}
+::placeholder{
+    text-align: center;
+    color: white;
+}
+.characters{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container-image{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.box-1{
+    background-color:rgb(135, 136, 136) ;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.ch-info{
+    background-color:#1afcf4 ;
+    border-radius: 5px;
+    color: white;
+    /* padding: 0.5rem; */
+}
+.img-2{
+    object-fit: cover;
+    width: 100px;
+    border-radius: 5px;
+}
+.img-3{
+    object-fit: cover;
+    width: 100px;
+    height: 110px;
+    border-radius: 5px;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
